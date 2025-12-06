@@ -8,7 +8,7 @@
 
 class Modul {
     public:
-    virtual void detect(View& view);
+    virtual void detect(pcl::PointCloud<pcl::PointXYZ>::Ptr cloud,View& view);
 };
 
 #endif

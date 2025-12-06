@@ -15,7 +15,6 @@ struct Point {
 
 class View {
     public:
-    std::vector<Point> allPoints;
     std::vector<Point> completed;
 };
 
