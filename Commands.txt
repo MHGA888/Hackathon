@@ -1,0 +1,5 @@
+1. Go into wanted direction
+2. Go into ./build/
+3. Run cmake ..
+4. Run make
+5. Run ./<bin-name> <path-to-file>

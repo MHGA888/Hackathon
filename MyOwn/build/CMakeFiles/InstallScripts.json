@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/kuba/Projects/Hackathon/MyOwn/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/check_point_format.dir/link.d CMakeFiles/check_point_format.dir/check_point_format.cpp.o -o check_point_format  -lPDAL::pdal

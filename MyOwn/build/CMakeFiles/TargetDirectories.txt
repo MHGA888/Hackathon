@@ -1,0 +1,3 @@
+/home/kuba/Projects/Hackathon/MyOwn/build/CMakeFiles/tutorial.dir
+/home/kuba/Projects/Hackathon/MyOwn/build/CMakeFiles/edit_cache.dir
+/home/kuba/Projects/Hackathon/MyOwn/build/CMakeFiles/rebuild_cache.dir

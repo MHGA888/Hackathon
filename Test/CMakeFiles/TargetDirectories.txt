@@ -1,0 +1,3 @@
+/home/kuba/Projects/Hackathon/Test/CMakeFiles/check_point_format.dir
+/home/kuba/Projects/Hackathon/Test/CMakeFiles/edit_cache.dir
+/home/kuba/Projects/Hackathon/Test/CMakeFiles/rebuild_cache.dir

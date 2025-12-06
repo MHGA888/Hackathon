@@ -1,0 +1,3 @@
+/home/kuba/Projects/Hackathon/MyOwn/Reader/build/CMakeFiles/pdal_plugin_reader_myreader.dir
+/home/kuba/Projects/Hackathon/MyOwn/Reader/build/CMakeFiles/edit_cache.dir
+/home/kuba/Projects/Hackathon/MyOwn/Reader/build/CMakeFiles/rebuild_cache.dir
