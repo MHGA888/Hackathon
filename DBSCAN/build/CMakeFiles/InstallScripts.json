@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/kuba/Projects/Hackathon/DBSCAN/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

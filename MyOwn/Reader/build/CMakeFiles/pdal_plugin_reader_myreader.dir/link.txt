@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC -shared -Wl,--dependency-file=CMakeFiles/pdal_plugin_reader_myreader.dir/link.d -Wl,-soname,libpdal_plugin_reader_myreader.so -o libpdal_plugin_reader_myreader.so CMakeFiles/pdal_plugin_reader_myreader.dir/MyReader.cpp.o  /usr/lib/libpdalcpp.so.19.2.0
