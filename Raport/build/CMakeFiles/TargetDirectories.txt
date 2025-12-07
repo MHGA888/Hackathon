@@ -1,0 +1,3 @@
+/home/kuba/Projects/Hackathon/Raport/build/CMakeFiles/Raport.dir
+/home/kuba/Projects/Hackathon/Raport/build/CMakeFiles/edit_cache.dir
+/home/kuba/Projects/Hackathon/Raport/build/CMakeFiles/rebuild_cache.dir

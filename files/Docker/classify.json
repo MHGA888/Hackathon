@@ -14,10 +14,10 @@
         {
             "type": "filters.csf",
             "resolution": 1.0,
-            "threshold": 0.25,
+            "threshold": 0.23,
             "smooth": true,
             "step": 0.65,
-            "hdiff": 0.25
+            "hdiff": 0.23
         },
         {
             "type": "filters.hag_nn"
@@ -37,9 +37,8 @@
                 "Classification = 5 WHERE Classification == 1 && HeightAboveGround > 2.0 && HeightAboveGround < 30.0 && Scattering > 0.375",
                 "Classification = 4 WHERE Classification == 1 && HeightAboveGround > 0.5 && HeightAboveGround < 3.0 && Scattering > 0.375",
                 "Classification = 3 WHERE Classification == 1 && HeightAboveGround < 0.5 && Scattering > 0.375 && HeightAboveGround > 0.0",
-
-                "Classification = 9 WHERE Classification == 2 && Blue > Red*1.2 && Blue > Green*1.2",
-                "Classification = 29 WHERE Classification == 2 && Green > Red*1.1 && Green > Blue*1.1",
+                "Classification = 9 WHERE Classification == 2 && Blue > Red * 1.2 && Blue > Green * 1.2",
+                "Classification = 29 WHERE Classification == 2 && Green > Red * 1.1 && Green > Blue * 1.1",
                 "Classification = 28 WHERE Classification == 2 && Red < 10000 && Green < 10000 && Blue < 10000",
                 "Classification = 30 WHERE Classification == 2 && abs(Red - Green) < 2500 && abs(Green - Blue) < 2500 && Red >= 10000"
             ]

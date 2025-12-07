@@ -1,0 +1,13 @@
+Classification 1 appeared 449638 times. That's 7.42071% of all points
+Classification 2 appeared 1514927 times. That's 25.002% of all points
+Classification 3 appeared 46022 times. That's 0.759535% of all points
+Classification 4 appeared 168157 times. That's 2.77522% of all points
+Classification 5 appeared 1071817 times. That's 17.689% of all points
+Classification 9 appeared 40694 times. That's 0.671603% of all points
+Classification 18 appeared 7990 times. That's 0.131865% of all points
+Classification 20 appeared 535182 times. That's 8.8325% of all points
+Classification 21 appeared 1233100 times. That's 20.3508% of all points
+Classification 28 appeared 352176 times. That's 5.81222% of all points
+Classification 29 appeared 43347 times. That's 0.715387% of all points
+Classification 30 appeared 596185 times. That's 9.83928% of all points
+Number of all points: 6059235
