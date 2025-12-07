@@ -1,0 +1,45 @@
+{
+    "pipeline": [
+        {
+            "type": "readers.las"
+        },
+        {
+        "type":"filters.voxeldownsize",
+        "cell":0.05,
+        "mode":"center"
+        },
+        {
+            "type": "filters.outlier"
+        },
+        {
+            "type": "filters.csf",
+            "resolution": 1.0,
+            "threshold": 0.5,
+            "smooth": true,
+            "step": 0.65
+        },
+        {
+            "type": "filters.hag_nn"
+        },
+        {
+            "type": "filters.covariancefeatures",
+            "knn": 20,
+            "threads": 4,
+            "feature_set": "Linearity,Planarity,Scattering,Verticality"
+        },
+        {
+            "type": "filters.assign",
+            "value": [
+                "Classification = 3 WHERE HeightAboveGround < 3.0 && HeightAboveGround > 0.5 && Scattering > 0.2",
+                "Classification = 4 WHERE HeightAboveGround > 0.5 && HeightAboveGround < 4.0 && Verticality > 0.85 && Linearity > 0.6",
+                "Classification = 5 WHERE HeightAboveGround > 3.0 && HeightAboveGround < 30.0 && Scattering > 0.2",
+                "Classification = 6 WHERE HeightAboveGround > 2.5 && Planarity > 0.8"
+            ]
+        },
+        {
+            "type": "writers.las",
+            "extra_dims": "all",
+            "forward": "all"
+        }
+    ]
+}

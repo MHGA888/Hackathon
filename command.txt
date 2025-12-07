@@ -1,0 +1,1 @@
+pdal pipeline Classify.json --readers.las.filename=data/Chmura\ Zadanie.las --writers.las.filename=output.las
